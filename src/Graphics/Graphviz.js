@@ -1,5 +1,6 @@
 "use strict";
-const Viz = require('viz.js');
+const _Viz = require('viz.js');
+const Viz = _Viz.default || _Viz;
 const viz_full = require('viz.js/full.render.js');
 
 exports._viz_internal = function(engine) {
